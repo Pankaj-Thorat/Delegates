@@ -21,6 +21,9 @@ namespace Delegates
 
             Console.WriteLine("Addition is {0}",obj(10, 20));
 
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("\nMultiCasting");
+            MultiCastDelegates.MulticastDelegate();
         }
     }
 }
